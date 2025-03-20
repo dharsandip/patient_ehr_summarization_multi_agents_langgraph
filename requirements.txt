@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langgraph
+langchain-groq
+langchain-core
+groq
+fpdf
+pillow
+matplotlib
+streamlit
+dotenv

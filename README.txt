@@ -19,5 +19,18 @@ Encounter progress notes agent: It extracts Encounter progress notes or Doctors 
 Summary agent: It summarizes the patient EHR based on the section wise medical information that it receives from all other nodes.
 
 
+Steps to setup and run:
+
+1. Create your python environment
+
+2. Install the dependencies (pip install -r requirements.txt)
+
+3. Go to https://console.groq.com/keys, sign up and get your free API key for Groq and set the
+   environment variable for the api key (GROQ_API_KEY) in your .env file and keep it in the working directory.
+   Sample .env is provided in this GitHub repo.
+
+4. Go to your working directory from console (command prompt), type and run:    streamlit run healthcare_multi_agents_langgraph_llama3.py
+
+5. Streamlit App will be launched
 
 
